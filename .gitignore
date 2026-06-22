@@ -1,0 +1,26 @@
+# Auth files (contains personal initData)
+auth.txt
+data/auth_telegram.txt
+
+# Sessions
+data/sessions/
+*.session
+
+# Config
+config/telethon.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
