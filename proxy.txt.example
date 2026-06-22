@@ -1,0 +1,8 @@
+# GoMine Proxy List — 1 proxy per line (1 per account)
+# Format: socks5://host:port or http://host:port
+# If proxy.txt is missing or not enough lines, falls back to socks5://127.0.0.1:1080
+#
+# Example:
+socks5://127.0.0.1:1080
+# socks5://proxy2.example.com:1080
+# http://user:pass@proxy3.example.com:8080
