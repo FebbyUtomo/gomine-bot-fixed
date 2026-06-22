@@ -9,6 +9,9 @@ data/sessions/
 # Config
 config/telethon.json
 
+# Proxy (may contain credentials)
+proxy.txt
+
 # Python
 __pycache__/
 *.pyc
