@@ -1,10 +1,8 @@
-# GoMine Bot - Example Auth File
-# Add 1 initData per line for multi-account support
-# To get initData, use Telethon:
-#   1. Connect to GoMineAppBot (ID: 8696220340)
-#   2. Open Mini App via RequestWebViewRequest
-#   3. Copy the initData from URL fragment
+# GoMine Auth — 1 initData per line (1 per account)
+# Get initData via Telethon or browser DevTools
 #
-# Format: query_id=...&user=%7B%22id%22...&auth_date=...&hash=...
-# Example:
-query_id=AAHdF6RZAAAAAN0XqhASfYHZ&user=%7B%22id%22%3A123456789%2C%22first_name%22%3A%22Test%22%2C%22username%22%3A%22testuser%22%7D&auth_date=1719000000&hash=abcdef1234567890
+# Format (single line, URL-encoded):
+# query_id=AAHxxx...&user=%7B%22id%22%3A123456789%2C%22first_name%22%3A%22Test%22%7D&auth_date=1719000000&hash=abc123...
+#
+# Example (replace with your real initData):
+query_id=AAHxxxEXAMPLE&user=%7B%22id%22%3A123456789%2C%22first_name%22%3A%22TestUser%22%7D&auth_date=1719000000&hash=example_hash_here
