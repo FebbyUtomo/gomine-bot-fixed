@@ -27,3 +27,7 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Runtime caches
+.session_cache.pkl
+gomine_session.session
